@@ -100,13 +100,14 @@
                             <img src="img/form_cancel.png"/>
                         </div>
                         <label class="form_text">Sit down with our experts to receive a free customized marketing plan for your business + Learn How To Use Google and Facebook to get 5000% ROI or more</label>
-                        <form method="get">
+                        <form method="GET" action="submit.php">
                             <ul>
-                                <li><input class="feedback" type="text" name="client_name" placeholder="Your Name"></li>
+                                <li><input class="feedback" type="text" name="name" placeholder="Your Name"></li>
                                 <li><input class="feedback" type="numder" name="tel" placeholder="Contact Number"></li>
-                                <li><input class="feedback" type="text" name="Company_Name" placeholder="Company Name"></li>
+                                <li><input class="feedback" type="text" name="company" placeholder="Company Name"></li>
                                 <li><input class="submit"  type="submit" value="Submit Now"/></li>
                             </ul>
+
                         </form>
                     </fieldset>
                 </div>
@@ -121,7 +122,7 @@
                         <li class="linkedin"><i class="fa fa-linkedin fa-2x fa-border"></i></li>
                     </ul>
                     <p>Subscribe to our newslatter to stay update with what is new</p>
-                    <form class="email_form" action="subscribe.php" method="post">
+                    <form class="email_form" method="GET">
                         <ul class="email_list">
                             <li><input class="email"type="email" name="email" placeholder="Email Addres"/></li>
                             <li><input class="subscribe" type="submit" name="subscribe" value="Subscribe"/></li>
